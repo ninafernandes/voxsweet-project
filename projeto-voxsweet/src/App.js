@@ -19,6 +19,7 @@ function App() {
                 Uma mensagem em um click.
                 </p>
 
+            {/* Export do conteúdo do ValidacaoCadastro */}
             <ValidacaoCadastro/>
             
       </div>
