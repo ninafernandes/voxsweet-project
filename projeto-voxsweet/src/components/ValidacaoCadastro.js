@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 
 const ValidacaoCadastro = () => (
 
-
     <Formik
         initialValues={{ email: "", password: "" }}
         onSubmit={(values, { setSubmitting }) => {
@@ -38,7 +37,7 @@ const ValidacaoCadastro = () => (
             } = props
 
             return (
-
+                // Iniciando o form
                 <form className="form-control-style" autoComplete="off" onSubmit={handleSubmit}>
                     <div className="form-box">
                         <h1 className="login-text"> Faça o login na sua conta! </h1>
