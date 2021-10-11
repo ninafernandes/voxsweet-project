@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização principal */
+
+.logo-img {
+    width: 80px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+
+.font-vosweet {
+    color: #FF9E00;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+    
+.main-text {
+    font-size: 28px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+
+.principal-img {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    right: 13px;
+    padding: 0;
+}
+
+.principal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 4rem;
+}
+
+/* Estilização do formulário */
+
+
+.form-box {
+    position: relative;
+    top: 70px;
+    background: #F7F7F7;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;    
+    width: 400px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.form-box input {
+    margin: 10px;
+    padding-left: 1.1rem;
+    outline: none;
+    border: 1px solid #EFEFEF;
+    height: 2.9rem;
+    width: 78%;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;    
+    font-size: 0.7em;
+}
+.input-box {
+    margin: 10px;
+    padding-left: 1.1rem;
+    outline: none;
+    border: 1px solid #EFEFEF;
+    height: 2.9rem;
+    width: 78%;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;    
+    font-size: 0.7em;
+    
+}
+
+.login-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.login-button {
+    margin-top: 30px;
+    background: #5A189A;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width: 78%;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    background-color: #5A189A;
+}
+
+.linha-button {
+    background-color: #DFDFDF;
+    width: 60%;
+    height: 1.5px;
+    margin-top: 20px;
+}
+
+.text-cadastro, .cadastro-link {
+    font-size: 12.5px;
+    margin-top: 20px;
+    color: rgba(79, 76, 76, 0.6)
+}
+
+.cadastro-link {
+    text-decoration: none;
+    color: #5A189A;
+    cursor: pointer;
+}
+
+.cadastro-link:hover {
+    color: #FF9E00;
+}
+
+/* Error */
+input.error {
+    border-color: red;
+}
+
+.input-feedback {
+    color: red;
+    font-size: 10px;
+    display: inline;
+    
+}
